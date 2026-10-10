@@ -1,8 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My GitHub Page</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            color: white;
+
+            /* Large background image */
+            background:
+                linear-gradient(
+                    rgba(0, 0, 0, 0.45),
+                    rgba(0, 0, 0, 0.55)
+                ),
+                url("https://i.imgur.com/XdxUyYc.jpeg");
+
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+
+            /* Center the text */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: clamp(2.5rem, 6vw, 5rem);
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 8px black;
+        }
+
+        p {
+            font-size: clamp(1rem, 2vw, 1.5rem);
+            text-shadow: 1px 1px 5px black;
+        }
+    </style>
 </head>
+
 <body>
     <h1>Hello World!</h1>
     <p>Welcome to my GitHub Pages website.</p>
